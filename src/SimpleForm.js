@@ -167,6 +167,25 @@ function SimpleForm() {
                 </label>
               </div>
             </div>
+
+            <div className="form-group mb-3">
+              <label htmlFor="Hobbie">Hobbie</label>
+              <input
+                type="text"
+                className="form-control"
+                id="Hobbie"
+                {...register("Hobbie[0]")}
+              />
+            </div>
+            <div className="form-group mb-3">
+              <label htmlFor="Hobbie">Hobbie</label>
+              <input
+                type="text"
+                className="form-control"
+                id="Hobbie"
+                {...register("Hobbie[1]")}
+              />
+            </div>
             <button className="btn btn-danger" type="submit">
               Submit
             </button>
